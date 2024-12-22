@@ -57,6 +57,6 @@ source "drivers/soc/oplus/oplus_als_cali_value/Kconfig"
 source "drivers/soc/oplus/oplus_nandswap/Kconfig"
 
 #ifdef OPLUS_FEATURE_HEALTHINFO
-source "drivers/soc/oplus/healthinfo/Kconfig"
+source "drivers/soc/oplus/healthinfo/main/Kconfig"
 #endif /* OPLUS_FEATURE_HEALTHINFO */
 endmenu
